@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENSE TRACKER</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+   <div class="heading"><h1>EXPENSE TRACKER</h1></div>
+   <div class="total">
+   <p class = "welcome"> Welcome </p>
+   <!--FORM LINKED TO PHP -->
+   <form action = "index.php"  method = "POST">
+
+    <!--ADD EXPENSES-->
+       <p>Add expenses ?</p>
+       <br>
+       <div class = "myanchor"><a href = "add.html">YES</a></div>
+
+    <!--VIEW  ALL EXPENSES TILL DATE-->
+       <p>View Expenses : </p>
+       <button class = "view"  name = "view">VIEW</button>
+       <br>
+       <br>
+
+    <!--CATEGORISE EXPENSES-->
+       <p>Categorise Expenses : </p>
+       <input type="text" name = "categ" placeholder = "enter category">
+       <button name = "group">CATEGORISE</button>
+       <br>
+       <br>
+
+
+    <!--CATEGORISE BASED ON PARTICULAR DATE-->
+        <p>View On Daily Basis : </p>
+       <input name = "days" type = "text" placeholder = "enter date (yyyy-mm-dd)">
+       <button name = "go" >GO</button>
+       <br>
+       <br>
+
+    <!--TOTAL EXPENSES TILL DATE-->
+       <p>View Total Expenses Till Today?</p>
+       <button name = "yes">YES</button>
+       <button name = "no">NO</button>
+       <br>
+       <br>
+
+    <!--TOTAL EXPENSES ACCORDING TO CATEGORIES-->
+        <p>Enter The Category : </p>
+        <input name="total" type = "text" placeholder = " category">
+         <button name = "category_tot">VIEW</button>
+       <br>
+       <br>
+
+    <!--TOTAL EXPENSE ON THE BASIS OF DATE-->
+       <p>View Total at a Particular Day : </p>
+       <input name = "day" type = "text" placeholder = "enter date (yyyy-mm-dd)">
+       <button name = "viewday" >GO</button>
+    </form>
+   </div> 
+
+
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+    font-size:18.9px;
+    font-weight:600;
+}
+/*welcome note*/
+.welcome{
+    font-family:cursive;
+    font-size : 50px;
+}
+/*expense tracker header*/
+.heading h1{
+    font-family:fantasy ;
+    color:hotpink;
+    text-align : center;
+    font-size : 70px;
+    display : flex;
+    justify-content : center;
+    border-color : black;
+}
+/*main*/
+.total{
+    text-align : center;
+    border : 4px solid cadetblue;
+    width : 700px;
+    margin-left : 400px;
+    margin-right : 200px;
+    background-color:aquamarine;
+    border-radius : 70px;
+
+}
+/*entire page*/
+body{    
+    background-color:lightskyblue;
+}
+p{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.myanchor{
+    background-color:blanchedalmond;
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    height :70px;
+    width : 70px;
+    margin-left : 325px;
+    border-radius:50%;
+}
+a{
+    color : rgb(152, 11, 34);
+    text-decoration: none;
+    transition : color  2s ease-in-out ;
+}
+a:hover{
+  color : plum
+}
+
+button{
+
+    border-radius : 10px;
+}
+button:hover{
+   color : navy;
+   background-color: lightcyan;
+}
+input{
+
+    border-radius: 20px;
+}
+.add_data{
+    font-size : 30px;
+    text-align : center;
+    background-color : white;
+    width : 500px;
+    margin-left : 500px;
+    margin-top : 150px;
+}
